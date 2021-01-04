@@ -1,4 +1,4 @@
-#Sliding using the Keyboard
+
 elif event.type == KEYUP:
                 
                 if event.key in (K_LEFT, K_a) and isValidMove(mainBoard, LEFT):
@@ -17,7 +17,7 @@ elif event.type == KEYUP:
         pygame.display.update()
         FPSCLOCK.tick(FPS)
 
-#Terminate the Game
+
 def terminate():
     pygame.quit()
     sys.exit()
